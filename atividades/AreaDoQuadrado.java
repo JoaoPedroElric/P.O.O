@@ -17,6 +17,7 @@ public class AreaDoQuadrado{
 
         System.out.println("A AREA DO QUADRADO É: " + area);
 
+        imput.close();
     }
 
 }
