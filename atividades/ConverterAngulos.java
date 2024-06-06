@@ -6,10 +6,10 @@ public class ConverterAngulos {
     public static void main(String[] args) {
         
         double angulo, radianos;
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.printf("Digite o ângulo em graus: ");
-        angulo = imput.nextDouble();
+        angulo = input.nextDouble();
 
         // cálculo para converter ângulo em radianos.
         radianos = angulo * (Math.PI / 180);
@@ -29,7 +29,7 @@ public class ConverterAngulos {
         System.out.println("SECANTE: " + secante);
         System.out.println("COTANGENTE: " + cotangente);
 
-        imput.close();
+        input.close();
 
     }
 

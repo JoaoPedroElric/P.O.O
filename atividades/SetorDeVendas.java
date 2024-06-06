@@ -7,11 +7,11 @@ public class SetorDeVendas {
         int setor;
         double precoOriginal, precoComDesconto;
 
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         do{    
             System.out.printf("Digite 0 para sair\nInforme o setor>> ");
-            setor = imput.nextInt();
+            setor = input.nextInt();
 
             /* 
             Para calcular a porcentagem de maneira mais pratica podemos usar o calor original multiplicado por 0.1
@@ -23,7 +23,7 @@ public class SetorDeVendas {
                     System.out.println("SETOR DE CAMA, MESA E BANHO");
 
                     System.out.printf("INFORME O PREÇO DO PRODUTO>> ");
-                    precoOriginal = imput.nextDouble();
+                    precoOriginal = input.nextDouble();
 
                     if(precoOriginal > 100){
                         precoComDesconto = precoOriginal * 0.6; // 40%.
@@ -41,7 +41,7 @@ public class SetorDeVendas {
                     System.out.println("SETOR DE ELETROS");
 
                     System.out.printf("INFORME O PREÇO DO PRODUTO>> ");
-                    precoOriginal = imput.nextDouble();
+                    precoOriginal = input.nextDouble();
 
                     if(precoOriginal >= 500) {
                         precoComDesconto = precoOriginal * 0.9; // 10%.
@@ -61,7 +61,7 @@ public class SetorDeVendas {
 
         }while(setor != 111 || setor != 222);
 
-        imput.close();
+        input.close();
     }
 
 }

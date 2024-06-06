@@ -8,7 +8,7 @@ public class InverterNumeros {
 
         Scanner input = new Scanner(System.in);
         System.out.printf("Digite um nemero inteiro para ser invertido: ");
-        numeroOriginal = imput.nextInt();
+        numeroOriginal = input.nextInt();
 
         
         while (numeroOriginal > 0){

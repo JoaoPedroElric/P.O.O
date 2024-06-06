@@ -9,12 +9,12 @@ public class Cartas {
         String nomeCarta = "";
         String naipeCarta = "";
 
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.printf("DIgite um numero de 1 a 13: ");
-        carta = imput.nextInt();
+        carta = input.nextInt();
 
         System.out.printf("Digite outro número de 1 a 4: ");
-        naipe = imput.nextInt();
+        naipe = input.nextInt();
 
         switch(carta) {
             case 1:
@@ -52,7 +52,7 @@ public class Cartas {
 
     System.out.println(nomeCarta + " DE " + naipeCarta);
 
-    imput.close();
+    input.close();
 
     }
 

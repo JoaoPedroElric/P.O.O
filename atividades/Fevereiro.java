@@ -7,10 +7,10 @@ public class Fevereiro {
         
         int dia, semana;
 
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.printf("Digite um dia do mes de fevereio: ");
-        dia = imput.nextInt();
+        dia = input.nextInt();
         semana = (dia - 1) % 7;
         
         switch (semana) {
@@ -39,7 +39,7 @@ public class Fevereiro {
                 
         }    
 
-        imput.close();
+        input.close();
 
     }
 }

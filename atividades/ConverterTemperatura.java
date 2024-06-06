@@ -7,15 +7,15 @@ public class ConverterTemperatura {
 
         double celsius, fahrenheit;
         
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.printf("Digite a temperatura em celsius: ");
-        celsius = imput.nextDouble();
+        celsius = input.nextDouble();
 
         fahrenheit = (celsius * 9 / 5) + 32;
 
         System.out.println(fahrenheit + "° Fahrenheit");
-        imput.close();
+        input.close();
 
     }
 

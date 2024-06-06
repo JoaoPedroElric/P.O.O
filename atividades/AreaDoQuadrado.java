@@ -7,9 +7,9 @@ public class AreaDoQuadrado{
         double lado, area;
         
         System.out.printf("INFORME O TAMANHO DO LADO DO QUADRADO: ");
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         
-        lado = imput.nextDouble();
+        lado = input.nextDouble();
         // area = lado * lado;
 
         // Ou.
@@ -17,7 +17,7 @@ public class AreaDoQuadrado{
 
         System.out.println("A AREA DO QUADRADO É: " + area);
 
-        imput.close();
+        input.close();
     }
 
 }

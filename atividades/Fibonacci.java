@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class Fibonacci {
     public static void main(String[] args) {
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         int numero;
 
         System.out.printf("Digite um número: ");
-        numero = imput.nextInt();
+        numero = input.nextInt();
 
         if(numero == 0) {
             System.out.println("!!Insira um numero positivo maior que zero!!\n");
@@ -29,6 +29,6 @@ public class Fibonacci {
         System.out.println(numero);
          */
 
-        imput.close();
+        input.close();
     }
 }

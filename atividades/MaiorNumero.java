@@ -6,11 +6,11 @@ public class MaiorNumero {
     public static void main(String[] args) {
         
         int maior = 0, numero, indice = 0;
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         while(indice < 3){
             System.out.printf("DIGITE UM NÚMERO: ");
-            numero = imput.nextInt();
+            numero = input.nextInt();
 
             if(numero > maior){
                 maior = numero;
@@ -20,7 +20,7 @@ public class MaiorNumero {
         }
 
         System.out.println("O maior número foi " + maior);
-        imput.close();
+        input.close();
     }
 
 }

@@ -7,18 +7,18 @@ public class PlanoCartesiano {
     
     int pontoX, pontoY, pontoX2, pontoY2;
 
-    Scanner imput = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
     System.out.printf("Informe o valor do ponto x no plano cartesiano: ");
-    pontoX = imput.nextInt();
+    pontoX = input.nextInt();
 
     System.out.printf("Informe o valor do ponto y no plano cartesiano: ");
-    pontoY = imput.nextInt();
+    pontoY = input.nextInt();
 
     System.out.printf("Informe o valor do segundo ponto x no plano cartesiano: ");
-    pontoX2 = imput.nextInt();
+    pontoX2 = input.nextInt();
 
     System.out.printf("Informe o valor do segundo ponto y no plano cartesiano: ");
-    pontoY2 = imput.nextInt();
+    pontoY2 = input.nextInt();
 
     if(pontoX > pontoX2) {
         System.out.printf("O ponto (%d,%d) está a esquerda do ponto (%d,%d)\n", pontoX2, pontoY2, pontoX, pontoY);
@@ -36,6 +36,6 @@ public class PlanoCartesiano {
         System.out.printf("O ponto (%d,%d) está na mesma altura (y) do ponto (%d,%d)\n", pontoX2, pontoY2, pontoX, pontoY);
     }
     
-    imput.close();
+    input.close();
     }
 }
