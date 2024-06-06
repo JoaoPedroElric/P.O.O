@@ -52,6 +52,8 @@ public class Cartas {
 
     System.out.println(nomeCarta + " DE " + naipeCarta);
 
+    imput.close();
+
     }
 
 

@@ -29,5 +29,6 @@ public class Fibonacci {
         System.out.println(numero);
          */
 
+        imput.close();
     }
 }

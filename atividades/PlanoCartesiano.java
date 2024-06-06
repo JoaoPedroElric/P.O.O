@@ -35,6 +35,7 @@ public class PlanoCartesiano {
     } else {
         System.out.printf("O ponto (%d,%d) está na mesma altura (y) do ponto (%d,%d)\n", pontoX2, pontoY2, pontoX, pontoY);
     }
-
+    
+    imput.close();
     }
 }

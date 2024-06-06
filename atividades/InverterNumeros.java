@@ -18,8 +18,7 @@ public class InverterNumeros {
         }
 
         System.out.println("Número invertido: " + numeroInvertido);
-
-        
+        imput.close();
 
     }
 

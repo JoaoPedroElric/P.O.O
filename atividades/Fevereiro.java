@@ -39,5 +39,7 @@ public class Fevereiro {
                 
         }    
 
+        imput.close();
+
     }
 }

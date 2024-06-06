@@ -17,6 +17,7 @@ public class Tempo {
        
         System.out.println("DIA: " + dias + " HORAS: " + horas + " MINUTOS: " + minutos);
 
+        imput.close();
     }
 
 }

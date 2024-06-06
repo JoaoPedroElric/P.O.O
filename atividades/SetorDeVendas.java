@@ -60,6 +60,8 @@ public class SetorDeVendas {
             } 
 
         }while(setor != 111 || setor != 222);
+
+        imput.close();
     }
 
 }

@@ -15,6 +15,7 @@ public class ConverterTemperatura {
         fahrenheit = (celsius * 9 / 5) + 32;
 
         System.out.println(fahrenheit + "° Fahrenheit");
+        imput.close();
 
     }
 

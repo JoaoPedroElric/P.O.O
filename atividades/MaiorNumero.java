@@ -20,6 +20,7 @@ public class MaiorNumero {
         }
 
         System.out.println("O maior número foi " + maior);
+        imput.close();
     }
 
 }
