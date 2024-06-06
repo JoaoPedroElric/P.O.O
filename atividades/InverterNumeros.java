@@ -6,7 +6,7 @@ public class InverterNumeros {
         
         int numeroOriginal, numeroInvertido = 0;
 
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.printf("Digite um nemero inteiro para ser invertido: ");
         numeroOriginal = imput.nextInt();
 
@@ -18,7 +18,7 @@ public class InverterNumeros {
         }
 
         System.out.println("Número invertido: " + numeroInvertido);
-        imput.close();
+        input.close();
 
     }
 
