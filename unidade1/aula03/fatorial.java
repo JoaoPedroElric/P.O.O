@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class fatorial {
     public static void main(String[] args) {
         int numero, fat;
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.printf("Digite um número para calcular o fatorial: ");
-        numero = imput.nextInt();
+        numero = input.nextInt();
 
         for(int num = 0; num <= numero; num++){
             fat = 1;

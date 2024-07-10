@@ -13,17 +13,17 @@ public class data {
         int ano;
         int qtdDias;
 
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         String dataFormatada;
 
         System.out.printf("Digite o dia: ");
-        dia = imput.nextInt();
+        dia = input.nextInt();
 
         System.out.printf("Digite o Mes: ");
-        mes = imput.nextInt();
+        mes = input.nextInt();
 
         System.out.printf("Digite o ano: ");
-        ano = imput.nextInt();
+        ano = input.nextInt();
 
         dataFormatada = dia + " de ";
 
@@ -76,7 +76,7 @@ public class data {
 
         System.out.println("O mês da data informada tem " + qtdDias + " Dias.");
 
-        imput.close();
+        input.close();
  
     }
  

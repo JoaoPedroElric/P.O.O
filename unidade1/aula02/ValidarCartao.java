@@ -14,26 +14,26 @@ public class ValidarCartao {
         // ---------- Obtendo a data atual ----------
         anoAtual = calendar.get(calendar.YEAR);
         mesAtual = 1 + calendar.get(calendar.MONTH); // Mes começa em 0 para ser usado em um vetor.
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         
         
         System.out.printf("Digite seu nome: ");
-        nome = imput.nextLine();
+        nome = input.nextLine();
 
             
         System.out.printf("Digite o número do cartão: ");
-        numero = imput.nextLine();
+        numero = input.nextLine();
 
         System.out.printf("Digite seu codigo: ");
-        codigo = imput.nextLine();
+        codigo = input.nextLine();
 
         do {
             System.out.printf("Digite o mês: ");
-            mes = imput.nextInt();
+            mes = input.nextInt();
 
             System.out.printf("Digite o ano: ");
-            ano = imput.nextInt();
+            ano = input.nextInt();
 
             // Checa se a data esta na validade.
             expirado = (ano < anoAtual) || (ano == anoAtual) && (mes < mesAtual);
@@ -47,7 +47,7 @@ public class ValidarCartao {
 
         System.out.printf("Cartão valido!!");
 
-        imput.close();
+        input.close();
     }
 
 }

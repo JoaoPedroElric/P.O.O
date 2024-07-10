@@ -4,17 +4,17 @@ import java.util.Scanner;
 public class media {
     public static void main(String[] args) {
 
-        Scanner imput = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         double n1, n2, n3, resposta;
 
         System.out.printf("Informe a nota 1: ");
-        n1 = imput.nextDouble();
+        n1 = input.nextDouble();
 
         System.out.printf("Informe a nota 1: ");
-        n2 = imput.nextDouble();
+        n2 = input.nextDouble();
         
         System.out.printf("Informe a nota 1: ");
-        n3 = imput.nextDouble();
+        n3 = input.nextDouble();
 
         resposta = media(n1, n2, n3);
 
