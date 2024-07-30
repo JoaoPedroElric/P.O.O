@@ -33,7 +33,7 @@ public class DemoElevador{
                     break;
             }
 
-        }while(menu == 5);
+        }while (menu != 5);
     
     input.close();
     }

@@ -1,7 +1,7 @@
 class Elevador {
     int andarAtual;
-    int totalAndares;
-    int capacidadeElevador;
+    private int totalAndares;
+    private int capacidadeElevador;
     int quantidadeNoElevador;
 
 Elevador(int andarAtual, int totalAndares, int capacidadeElevador, int quantidadeNoElevador) {
@@ -11,43 +11,35 @@ Elevador(int andarAtual, int totalAndares, int capacidadeElevador, int quantidad
     this.quantidadeNoElevador = quantidadeNoElevador;
 }
 
-int entrar() {
+void entrar() {
     if(quantidadeNoElevador > capacidadeElevador){
         System.out.println("Capacidade cheia!");
     } else quantidadeNoElevador += 1;
-    // System.out.println("TOTAL DE PESSOAS NO ELEVADOR: " + quantidadeNoElevador);
+    System.out.println("TOTAL DE PESSOAS NO ELEVADOR: " + quantidadeNoElevador);
     System.out.println("ANDAR ATUAL : " + andarAtual);
-
-    return quantidadeNoElevador;
 }
 
-int sai() {
+void sai() {
     if(quantidadeNoElevador == 0){
         System.out.println("Não a ninguem no elevador");
     } else quantidadeNoElevador -= 1;
-    // System.out.println("TOTAL DE PESSOAS NO ELEVADOR: " + quantidadeNoElevador);
+    System.out.println("TOTAL DE PESSOAS NO ELEVADOR: " + quantidadeNoElevador);
     System.out.println("ANDAR ATUAL : " + andarAtual);
-
-    return quantidadeNoElevador;
 }
 
-int sobe() {
+void sobe() {
     if(andarAtual == totalAndares){
         System.out.println("Estamos no topo!");
     } else andarAtual += 1;
     System.out.println("TOTAL DE PESSOAS NO ELEVADOR: " + quantidadeNoElevador);
-    // System.out.println("ANDAR ATUAL : " + andarAtual);
-
-    return andarAtual;
+    System.out.println("ANDAR ATUAL : " + andarAtual);
 }
 
-int desce() {
+void desce() {
     if(andarAtual == 0){
         System.out.println("Estamos no terrio!");
     }else andarAtual -= 1;
     System.out.println("TOTAL DE PESSOAS NO ELEVADOR: " + quantidadeNoElevador);
-    // System.out.println("ANDAR ATUAL : " + andarAtual);
-
-    return andarAtual;
+    System.out.println("ANDAR ATUAL : " + andarAtual);
 }
 }
