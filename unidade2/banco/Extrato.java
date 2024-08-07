@@ -14,7 +14,8 @@ public class Extrato {
         if(saldoFinal + valor >= 0){
             saldoFinal += valor;
             transacoes.add(valor); // Historico do extrato.
-        }
+            System.out.println("TRANSAÇÃO REALIZADA");
+        }else System.out.println("VALOR INDSIPONIVEL!");
     }
 
     public void imprimir() {
@@ -22,10 +23,10 @@ public class Extrato {
         for(Double d: transacoes){
             System.out.println(d);
         }
-        for(int i = 0; i < transacoes.size(); i++){
-            System.out.println("1 " + saldoFinal);
+        // for(int i = 0; i < transacoes.size(); i++){
+        //     System.out.println( i + ": " + saldoFinal);
 
-        }
+        // }
         System.out.println("SALDO: " + saldoFinal);
         System.out.println("=====================");
     }
