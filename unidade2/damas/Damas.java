@@ -27,7 +27,6 @@ public class Damas {
                 tabuleiro[l][c] = 'o';
             }
         }
-
     }
 
     public String toString() {
